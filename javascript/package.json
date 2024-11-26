@@ -1,0 +1,26 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "codegen:mobile": "playwright codegen --viewport-size=375,667 playwright.dev",
+    "codegen:tablet": "playwright codegen --viewport-size=768,1024 playwright.dev",
+    "codegen:desktop": "playwright codegen --viewport-size=1366,768 playwright.dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/selenium-webdriver": "^4.1.27",
+    "chromedriver": "^131.0.1",
+    "jest": "^29.7.0",
+    "selenium-webdriver": "^4.27.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  }
+}
